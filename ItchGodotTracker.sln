@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItchGodotTracker.Tests", "ItchGodotTracker.Tests\ItchGodotTracker.Tests.csproj", "{A6BE5152-5928-4D2D-82B5-A7A16E99D292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItchGodotTracker.Web", "ItchGodotTracker.Web\ItchGodotTracker.Web.csproj", "{94FE4BD1-5779-422C-A765-3ADFFBD0CF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItchGodotTracker.Common", "ItchGodotTracker.Common\ItchGodotTracker.Common.csproj", "{579D1E93-7293-4907-A6C8-C1C14A482BCA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BE5152-5928-4D2D-82B5-A7A16E99D292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BE5152-5928-4D2D-82B5-A7A16E99D292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BE5152-5928-4D2D-82B5-A7A16E99D292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BE5152-5928-4D2D-82B5-A7A16E99D292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FE4BD1-5779-422C-A765-3ADFFBD0CF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FE4BD1-5779-422C-A765-3ADFFBD0CF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FE4BD1-5779-422C-A765-3ADFFBD0CF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FE4BD1-5779-422C-A765-3ADFFBD0CF20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579D1E93-7293-4907-A6C8-C1C14A482BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579D1E93-7293-4907-A6C8-C1C14A482BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579D1E93-7293-4907-A6C8-C1C14A482BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579D1E93-7293-4907-A6C8-C1C14A482BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
