@@ -1,7 +1,5 @@
 using FluentAssertions;
 using ItchGodotTracker.Common;
-using Newtonsoft.Json;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
@@ -27,10 +25,9 @@ namespace ItchGodotTracker.Tests
         {
             using HttpClient? client = new();
 
-            var json = Task.Run(() => client.GetStringAsync(File)).Result;
+            var result = ItchService.GetGodotGames();
 
-            var result = JsonConvert.DeserializeObject<IList<ItchGame>>(json);
-
+            result.Should().NotBeNull();
             result.Count.Should().NotBe(0);
         }
     }
